@@ -7,18 +7,18 @@
 		<string>y</string>
 	</array>
 	<key>name</key>
-	<string>Bison</string>
+	<string>Happy</string>
 	<key>patterns</key>
 	<array>
 		<dict>
 			<key>begin</key>
 			<string>^%\{</string>
 			<key>contentName</key>
-			<string>source.c</string>
+			<string>source.haskell</string>
 			<key>end</key>
 			<string>%\}</string>
 			<key>name</key>
-			<string>meta.prologue.bison</string>
+			<string>meta.prologue.hapyy</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -33,7 +33,7 @@
 			<key>end</key>
 			<string>^(?=%%$)</string>
 			<key>name</key>
-			<string>meta.declarations.bison</string>
+			<string>meta.declarations.happy</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -46,7 +46,7 @@
 					<key>begin</key>
 					<string>^(?!%%$)</string>
 					<key>contentName</key>
-					<string>meta.rules.bison</string>
+					<string>meta.rules.happy</string>
 					<key>end</key>
 					<string>^(?=%%$)</string>
 					<key>patterns</key>
@@ -61,7 +61,7 @@
 					<key>begin</key>
 					<string>^%%$</string>
 					<key>contentName</key>
-					<string>meta.epilogue.bison</string>
+					<string>meta.epilogue.happy</string>
 					<key>end</key>
 					<string>$.^</string>
 					<key>patterns</key>
@@ -87,7 +87,7 @@
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>source.bison</string>
+	<string>source.happy</string>
 	<key>uuid</key>
 	<string>1AA6D027-D1AF-4868-951D-1634BD88D910</string>
 </dict>
